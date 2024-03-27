@@ -1,983 +1,1072 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-	xmlns:o="urn:schemas-microsoft-com:office:office">
+  xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="x-apple-disable-message-reformatting">
-	<meta content="telephone=no" name="format-detection">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!--[if mso]> <xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> <![endif]-->
-	<title>title</title>
-	<!--[if mso]> <style type="text/css"> a { text-decoration: none; } .mso-underline { text-decoration: underline !important; } </style> <![endif]-->
-	<style type="text/css">
-		@media only screen and (max-width: 600px) {
-			.mob_100 {
-				width: 100% !important;
-				max-width: 100% !important;
-			}
-		}
-	</style>
+  <!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <title></title>
+  <style type="text/css">
+    html {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .mob_100 {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .no_br br{
+        display: none !important;
+      }
+
+    }
+  </style>
+
+
 </head>
 
 <body style="padding: 0px; margin: 0px;">
-	<!--[if !mso]><!-->
-	<div class="preheader" style="font-size:0px;color:transparent;opacity:0;">preheader</div>
-	<div style="font-size:0px;color:transparent;opacity:0;">
-		&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-	</div>
-	<!--<![endif]-->
-	<!-- body -->
-	<div align="center"
-		style="line-height: normal; word-break: normal; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;">
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="line-height: normal;">
-			<tr>
-				<td align="center" bgcolor="#faf7f1" style="background-color:#faf7f1; padding: 0 8px;">
-					<!-- main -->
-					<!--[if mso]> <table width="600" border="0" cellspacing="0" cellpadding="0" style="width: 600px;"> <tr><td> <![endif]-->
-					<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px;">
 
-						<tr>
-							<td align="center">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center" valign="middle" background="https://placehold.jp/600x500.png"
-											style="background-image: url(https://placehold.jp/600x500.png); background-position: center top; background-size: cover; background-repeat: no-repeat;">
-											<!--[if gte mso 9]>
-											<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:  600px; height:  300px;">
-											<v:fill type="frame" src="https://placehold.jp/600x500.png" color="none" />
-											<v:textbox inset="0,0,0,0">
-											<![endif]-->
-											<table width="100%" cellpadding="0" cellspacing="0" border="0">
-												<tr>
-													<td align="center" valign="middle" height=" 300"
-														style="height:  300px; padding: 0 15px; mso-padding-alt: 0 0;">
-														<!--[if (gte mso 9)|(IE)]>
-														<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-														<tr><td>
-														<![endif]-->
-														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-															<tr>
-																<td align="center"
-																	style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 48px; line-height: 48px; text-transform: uppercase; color: #000000; padding-bottom: 20px;">
-																	Lorem ipsum
-																</td>
-															</tr>
-														</table>
-														<!--[if (gte mso 9)|(IE)]>
-														</td></tr>
-														</table>
-														<![endif]-->
-													</td>
-												</tr>
-											</table>
-											<!--[if gte mso 9]>
-											</v:textbox>
-											</v:rect>
-											<![endif]-->
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+  <div align="center"
+    style="line-height: normal; word-break: normal; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="line-height: normal;">
+      <tr>
+        <td align="center" bgcolor="#131316" style="background-color: #131316;">
+          <!-- main -->
+          <!--[if (gte mso 9)|(IE)]>
+					<table width="1000" border="0" cellspacing="0" cellpadding="0" style="width: 1000px;">
+					<tr><td>
+					<![endif]-->
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 1000px; min-width: 300px;">
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 40px 15px 24px;">
-								<!--[if (gte mso 9)|(IE)]>
-								<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-								<tr><td>
-								<![endif]-->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-									<tr>
-										<td align="left"
-											style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 22px; color: #000000; mso-line-height-rule: exactly;">
-											Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-											natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-										</td>
-									</tr>
-								</table>
-								<!--[if (gte mso 9)|(IE)]>
-								</td></tr>
-								</table>
-								<![endif]-->
-							</td>
-						</tr>
+            <tr>
+              <td align="center">
+                <div class="mail_preheader" style="font-size: 0px; color: #131316; line-height: 0px;">
+                  <span
+                    style="font-family: Helvetica, Arial, sans-serif; font-size: 0px; color: transparent; line-height: 0px;"></span>
+                </div>
+                <div class="mail_preheader" style="font-size: 0px; color: #131316; line-height: 0px;">
+                  <span
+                    style="font-family: Helvetica, Arial, sans-serif; font-size: 0px; color: #131316; line-height: 0px;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+                  </span>
+                </div>
+              </td>
+            </tr>
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 0px 15px 40px;">
-								<!--[if (gte mso 9)|(IE)]>
-								<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-								<tr><td>
-								<![endif]-->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-									<tr>
-										<td align="left"
-											style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 22px; color: #000000; mso-line-height-rule: exactly;">
-											Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-											natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-										</td>
-									</tr>
-								</table>
-								<!--[if (gte mso 9)|(IE)]>
-								</td></tr>
-								</table>
-								<![endif]-->
-							</td>
-						</tr>
+            <tr>
+              <td align="center">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top" background="images/bg01.png"
+                      style="background-image: url(images/bg01.png); background-position: center top; background-size: 100% auto; background-repeat: no-repeat;">
+                      <!--[if gte mso 9]>
+                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 1000px; height:1720px;">
+                      <v:fill type="frame" src="images/bg01.png" color="none" />
+                      <v:textbox inset="0,0,0,0">
+                      <![endif]-->
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td align="center" valign="top" style="padding: 0 10px; mso-padding-alt: 0 0;">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="630" border="0" cellspacing="0" cellpadding="0" style="width: 630px;">
+                            <tr><td>
+                            <![endif]-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 630px;">
+                              <tr>
+                                <td align="center" style="padding: 30px 0 50px;">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                  <table width="620" border="0" cellspacing="0" cellpadding="0" style="width: 620px;">
+                                  <tr><td>
+                                  <![endif]-->
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="max-width: 620px;">
+                                    <tr>
+                                      <td align="left" style="padding-right: 10px; mso-padding-alt: 0 0;">
+                                        <a href="#" target="_blank" style="text-decoration: none; color: #000000; ">
+                                          <img src="images/logo01.png" width="120" alt="" border="0"
+                                            style="display: block; text-decoration: none; width: 100%; max-width: 120px; ">
+                                        </a>
+                                      </td>
+                                      <td align="right" style="padding-left: 10px; mso-padding-alt: 0 0;">
+                                        <a href="#" target="_blank" style="text-decoration: none; color: #000000; ">
+                                          <img src="images/btn01.png" width="180" alt="" border="0"
+                                            style="display: block; text-decoration: none; width: 100%; max-width: 180px; ">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!--[if (gte mso 9)|(IE)]>
+                                  </td></tr>
+                                  </table>
+                                  <![endif]-->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding-bottom: 18px;">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                  <table width="600" border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
+                                  <tr><td>
+                                  <![endif]-->
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="max-width: 600px;">
+                                    <tr>
+                                      <td align="center"
+                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 32px; line-height: 38px; color: #FFFFFF;">
+                                        Наши новинки:
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!--[if (gte mso 9)|(IE)]>
+                                  </td></tr>
+                                  </table>
+                                  <![endif]-->
+                                </td>
+                              </tr>
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 0px 15px 38px;">
-								<!--[if (gte mso 9)|(IE)]>
-								<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-								<tr><td>
-								<![endif]-->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-									<tr>
-										<td align="center">
-											<table width="100" border="0" cellspacing="0" cellpadding="0" style="max-width: 100px;">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td></tr>
+                            </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding: 0 10px; mso-padding-alt: 0 0;">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="630" border="0" cellspacing="0" cellpadding="0" style="width: 630px;">
+                            <tr><td>
+                            <![endif]-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 630px;">
+                              <tr>
+                                <td align="center">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td align="center" valign="top" style="font-size: 0px; line-height: 0px;">
+                                        <!-- item -->
+                                        <div class="mob_100"
+                                          style="display: inline-block; vertical-align: top; width: 100%; max-width: 210px;">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="center"
+                                                style="font-size: 14px; line-height: 16px; padding: 5px 0;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="200" border="0" cellspacing="0" cellpadding="0" style="width: 200px;">
+                                                <tr><td>
+                                                <![endif]-->
+                                                <table class="mob_100" width="100%" border="0" cellspacing="0"
+                                                  cellpadding="0" style="max-width: 200px;">
+                                                  <tr>
+                                                    <td align="center" bgcolor="#FFFFFF"
+                                                      style="background-color: #FFFFFF; border-radius: 4px; overflow: hidden;">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                          <td align="center">
+                                                            <a href="#" target="_blank"
+                                                              style="text-decoration: none; color: #000000; ">
+                                                              <img class="mob_100" src="images/creative01.png"
+                                                                width="200" alt="" border="0"
+                                                                style="display: block; text-decoration: none; width: 100%; max-width: 200px; ">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center"
+                                                            style="padding: 0px 10px; mso-padding-alt: 0 0;">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="180" border="0" cellspacing="0" cellpadding="0" style="width: 180px;">
+                                                            <tr><td>
+                                                            <![endif]-->
+                                                            <table class="mob_100" width="100%" border="0"
+                                                              cellspacing="0" cellpadding="0" style="max-width: 180px;">
+                                                              <tr>
+                                                                <td align="center"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 21px; color: #131316; padding-bottom: 10px;">
+                                                                  &laquo;Чегантина&raquo;&nbsp;&mdash; парадный боевой
+                                                                  крейсер
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                      <td align="center" valign="middle" width="90"
+                                                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 23px; text-decoration: line-through; color: #D9D9D9; width:90px">
+                                                                        $1 299
+                                                                      </td>
+                                                                      <td align="center" valign="middle" width="90"
+                                                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 24px; line-height: 28px; font-weight: bold; color: #131316; width:90px">
+                                                                        $999
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <a href="#" target="_blank"
+                                                                    style="text-decoration: none; color: #000000; ">
+                                                                    <img src="images/btn02.png" width="180" alt=""
+                                                                      border="0"
+                                                                      style="display: block; text-decoration: none; width: 100%; max-width: 180px; ">
+                                                                  </a>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td></tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                </td></tr>
+                                                </table>
+                                                <![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                        <!-- item END-->
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<!--[if (gte mso 9)|(IE)]>
-								</td></tr>
-								</table>
-								<![endif]-->
-							</td>
-						</tr>
+                                        <!-- item -->
+                                        <!--[if (gte mso 9)|(IE)]>
+                                        </td><td valign="top" width="210" style="width: 210px;">
+                                        <![endif]-->
+                                        <div class="mob_100"
+                                          style="display: inline-block; vertical-align: top; width: 100%; max-width: 210px;">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="center"
+                                                style="font-size: 14px; line-height: 16px; padding: 5px 0;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="200" border="0" cellspacing="0" cellpadding="0" style="width: 200px;">
+                                                <tr><td>
+                                                <![endif]-->
+                                                <table class="mob_100" width="100%" border="0" cellspacing="0"
+                                                  cellpadding="0" style="max-width: 200px;">
+                                                  <tr>
+                                                    <td align="center" bgcolor="#FFFFFF"
+                                                      style="background-color: #FFFFFF; border-radius: 4px; overflow: hidden;">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                          <td align="center">
+                                                            <a href="#" target="_blank"
+                                                              style="text-decoration: none; color: #000000; ">
+                                                              <img class="mob_100" src="images/creative02.png"
+                                                                width="200" alt="" border="0"
+                                                                style="display: block; text-decoration: none; width: 100%; max-width: 200px; ">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center"
+                                                            style="padding: 0px 10px; mso-padding-alt: 0 0;">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="180" border="0" cellspacing="0" cellpadding="0" style="width: 180px;">
+                                                            <tr><td>
+                                                            <![endif]-->
+                                                            <table class="mob_100" width="100%" border="0"
+                                                              cellspacing="0" cellpadding="0" style="max-width: 180px;">
+                                                              <tr>
+                                                                <td align="center"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 21px; color: #131316; padding-bottom: 10px;">
+                                                                  Космический корабль синего цвета
+                                                                  (c&nbsp;локаторами)
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                      <td align="center" valign="middle" width="90"
+                                                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 23px; text-decoration: line-through; color: #D9D9D9; width:90px">
+                                                                        $1 899
+                                                                      </td>
+                                                                      <td align="center" valign="middle" width="90"
+                                                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 24px; line-height: 28px; font-weight: bold; color: #131316; width:90px">
+                                                                        $1 299
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <a href="#" target="_blank"
+                                                                    style="text-decoration: none; color: #000000; ">
+                                                                    <img src="images/btn02.png" width="180" alt=""
+                                                                      border="0"
+                                                                      style="display: block; text-decoration: none; width: 100%; max-width: 180px; ">
+                                                                  </a>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td></tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                </td></tr>
+                                                </table>
+                                                <![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                        <!-- item END-->
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff;">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center">
-														<table width="100%" border="0" cellspacing="0" cellpadding="0">
-															<tr>
-																<td align="center" width="50%">
-																	<a href="#" target="_blank"
-																		style="text-decoration: none; color: #000000; ">
-																		<img src="https://placehold.jp/300x242.png" width="300" alt="" border="0"
-																			style="display: block; text-decoration: none; width: 100%; max-width: 300px; ">
-																	</a>
-																</td>
-																<td align="center" width="50%">
-																	<a href="#" target="_blank"
-																		style="text-decoration: none; color: #000000; ">
-																		<img src="https://placehold.jp/3d4070/ffffff/300x242.png" width="300" alt="" border="0"
-																			style="display: block; text-decoration: none; width: 100%; max-width: 300px; ">
-																	</a>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td align="center" style="padding: 30px 15px 40px;">
-											<!--[if (gte mso 9)|(IE)]>
-											<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-											<tr><td>
-											<![endif]-->
-											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-												<tr>
-													<td align="left"
-														style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 22px; color: #000000; padding-bottom: 26px;">
-														Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-													</td>
-												</tr>
-												<tr>
-													<td align="left">
-														<table width="242" border="0" cellspacing="0" cellpadding="0" style="width: 242px;">
-															<tr>
-																<td nowrap align="center" valign="middle" bgcolor="#FFFFFF"
-																	style="background-color: #FFFFFF; border: 1px solid #222222; display: block; border-radius: 0px; mso-padding-alt: 15px 20px;">
-																	<a href="#" target="_blank"
-																		style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 20px; color: #222222; white-space: nowrap; text-decoration: none; display: block; padding: 15px 20px;">
-																		выбрать
-																	</a>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!--[if (gte mso 9)|(IE)]>
-											</td></tr>
-											</table>
-											<![endif]-->
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+                                        <!-- item -->
+                                        <!--[if (gte mso 9)|(IE)]>
+                                        </td><td valign="top" width="210" style="width: 210px;">
+                                        <![endif]-->
+                                        <div class="mob_100"
+                                          style="display: inline-block; vertical-align: top; width: 100%; max-width: 210px;">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="center"
+                                                style="font-size: 14px; line-height: 16px; padding: 5px 0;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="200" border="0" cellspacing="0" cellpadding="0" style="width: 200px;">
+                                                <tr><td>
+                                                <![endif]-->
+                                                <table class="mob_100" width="100%" border="0" cellspacing="0"
+                                                  cellpadding="0" style="max-width: 200px;">
+                                                  <tr>
+                                                    <td align="center" bgcolor="#FFFFFF"
+                                                      style="background-color: #FFFFFF; border-radius: 4px; overflow: hidden;">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                          <td align="center">
+                                                            <a href="#" target="_blank"
+                                                              style="text-decoration: none; color: #000000; ">
+                                                              <img class="mob_100" src="images/creative03.png"
+                                                                width="200" alt="" border="0"
+                                                                style="display: block; text-decoration: none; width: 100%; max-width: 200px; ">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center"
+                                                            style="padding: 0px 10px; mso-padding-alt: 0 0;">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="180" border="0" cellspacing="0" cellpadding="0" style="width: 180px;">
+                                                            <tr><td>
+                                                            <![endif]-->
+                                                            <table class="mob_100" width="100%" border="0"
+                                                              cellspacing="0" cellpadding="0" style="max-width: 180px;">
+                                                              <tr>
+                                                                <td align="center"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 21px; color: #131316; padding-bottom: 10px;">
+                                                                  &laquo;Ночной ястреб&raquo;&nbsp;&mdash;
+                                                                  Надежный корабль-перехватчик
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                      <td align="center" valign="middle" width="90"
+                                                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 24px; line-height: 28px; font-weight: bold; color: #131316; width:90px">
+                                                                        $799
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <a href="#" target="_blank"
+                                                                    style="text-decoration: none; color: #000000; ">
+                                                                    <img src="images/btn02.png" width="180" alt=""
+                                                                      border="0"
+                                                                      style="display: block; text-decoration: none; width: 100%; max-width: 180px; ">
+                                                                  </a>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td></tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                </td></tr>
+                                                </table>
+                                                <![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                        <!-- item END-->
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td></tr>
+                            </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 0px 15px 28px;">
-								<!--[if (gte mso 9)|(IE)]>
-								<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-								<tr><td>
-								<![endif]-->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-									<tr>
-										<td align="center">
-											<table width="100" border="0" cellspacing="0" cellpadding="0" style="max-width: 100px;">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
+                        <tr>
+                          <td align="center" style="padding: 0 10px; mso-padding-alt: 0 0;">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="630" border="0" cellspacing="0" cellpadding="0" style="width: 630px;">
+                            <tr><td>
+                            <![endif]-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 630px;">
+                              <tr>
+                                <td align="center">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td align="center" valign="top" style="font-size: 0px; line-height: 0px;">
+                                        <!-- item -->
+                                        <div class="mob_100"
+                                          style="display: inline-block; vertical-align: top; width: 100%; max-width: 315px;">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="center"
+                                                style="font-size: 14px; line-height: 16px; padding: 5px 0;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="305" border="0" cellspacing="0" cellpadding="0" style="width: 305px;">
+                                                <tr><td>
+                                                <![endif]-->
+                                                <table class="mob_100" width="100%" border="0" cellspacing="0"
+                                                  cellpadding="0" style="max-width: 305px;">
+                                                  <tr>
+                                                    <td align="center" bgcolor="#FFFFFF"
+                                                      style="background-color: #FFFFFF; border-radius: 4px; overflow: hidden;">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                          <td align="center">
+                                                            <a href="#" target="_blank"
+                                                              style="text-decoration: none; color: #000000; ">
+                                                              <img class="mob_100" src="images/creative04.png"
+                                                                width="305" alt="" border="0"
+                                                                style="display: block; text-decoration: none; width: 100%; max-width: 305px; ">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center"
+                                                            style="padding: 0px 10px; mso-padding-alt: 0 0;">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="285" border="0" cellspacing="0" cellpadding="0" style="width: 285px;">
+                                                            <tr><td>
+                                                            <![endif]-->
+                                                            <table class="mob_100" width="100%" border="0"
+                                                              cellspacing="0" cellpadding="0" style="max-width: 285px;">
+                                                              <tr>
+                                                                <td align="center"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 20px; color: #131316; padding-bottom: 10px;">
+                                                                  &laquo;Карающий луч&raquo;&nbsp;&mdash;
+                                                                  Полнофункциональный боевой корабль низкой ценовой
+                                                                  категории
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <table width="100%" border="0" cellspacing="0"
+                                                                    cellpadding="0">
+                                                                    <tr>
+                                                                      <td align="center" valign="middle" width="90"
+                                                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 24px; line-height: 28px; font-weight: bold; color: #131316; width:90px">
+                                                                        $479
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <a href="#" target="_blank"
+                                                                    style="text-decoration: none; color: #000000; ">
+                                                                    <img src="images/btn03.png" width="285" alt=""
+                                                                      border="0"
+                                                                      style="display: block; text-decoration: none; width: 100%; max-width: 285px; ">
+                                                                  </a>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td></tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                </td></tr>
+                                                </table>
+                                                <![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                        <!-- item END-->
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<!--[if (gte mso 9)|(IE)]>
-								</td></tr>
-								</table>
-								<![endif]-->
-							</td>
-						</tr>
+                                        <!-- item -->
+                                        <!--[if (gte mso 9)|(IE)]>
+                                        </td><td valign="top" width="315" style="width: 315px;">
+                                        <![endif]-->
+                                        <div class="mob_100"
+                                          style="display: inline-block; vertical-align: top; width: 100%; max-width: 315px;">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                              <td align="center"
+                                                style="font-size: 14px; line-height: 16px; padding: 5px 0;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table width="305" border="0" cellspacing="0" cellpadding="0" style="width: 305px;">
+                                                <tr><td>
+                                                <![endif]-->
+                                                <table class="mob_100" width="100%" border="0" cellspacing="0"
+                                                  cellpadding="0" style="max-width: 305px;">
+                                                  <tr>
+                                                    <td align="center" bgcolor="#FFFFFF"
+                                                      style="background-color: #FFFFFF; border-radius: 4px; overflow: hidden;">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                          <td align="center">
+                                                            <a href="#" target="_blank"
+                                                              style="text-decoration: none; color: #000000; ">
+                                                              <img class="mob_100" src="images/creative05.png"
+                                                                width="305" alt="" border="0"
+                                                                style="display: block; text-decoration: none; width: 100%; max-width: 305px; ">
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center"
+                                                            style="padding: 0px 10px; mso-padding-alt: 0 0;">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="285" border="0" cellspacing="0" cellpadding="0" style="width: 285px;">
+                                                            <tr><td>
+                                                            <![endif]-->
+                                                            <table class="mob_100" width="100%" border="0"
+                                                              cellspacing="0" cellpadding="0" style="max-width: 285px;">
+                                                              <tr>
+                                                                <td align="center" class="no_br"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 20px; color: #131316; padding-bottom: 10px;">
+                                                                  &laquo;Антидоминатор&raquo;&nbsp;&mdash;<br>
+                                                                  Дорогое и&nbsp;эффективное оружие против доминаторов.
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <table width="100%" border="0" cellspacing="0"
+                                                                    cellpadding="0">
+                                                                    <tr>
+                                                                      <td align="center" valign="middle" width="90"
+                                                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 24px; line-height: 28px; font-weight: bold; color: #131316; width:90px">
+                                                                        $1 779
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="center" style="padding-bottom: 10px;">
+                                                                  <a href="#" target="_blank"
+                                                                    style="text-decoration: none; color: #000000; ">
+                                                                    <img src="images/btn03.png" width="285" alt=""
+                                                                      border="0"
+                                                                      style="display: block; text-decoration: none; width: 100%; max-width: 285px; ">
+                                                                  </a>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td></tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                </td></tr>
+                                                </table>
+                                                <![endif]-->
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                        <!-- item END-->
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding-bottom: 30px;">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" valign="top" style="font-size: 0px; line-height: 0px;">
-														<!-- item -->
-														<div class="mob_100"
-															style="display: inline-block; vertical-align: top; width: 100%; max-width: 300px;">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td align="left" style="font-size: 14px; line-height: 16px; padding: 10px 0;">
-																		<a href="#" target="_blank"
-																			style="text-decoration: none; color: #000000; ">
-																			<img src="https://placehold.jp/3d4070/ffffff/300x242.png" width="300" alt="" border="0"
-																				style="display: block; text-decoration: none; width: 100%; max-width: 300px; ">
-																		</a>
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<!-- item END-->
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td></tr>
+                            </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
 
-														<!-- item -->
-														<!--[if (gte mso 9)|(IE)]>
-														</td><td valign="top" width="300" style="width: 300px;">
-														<![endif]-->
-														<div class="mob_100"
-															style="display: inline-block; vertical-align: top; width: 100%; max-width: 300px;">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td align="center" style="font-size: 14px; line-height: 16px; padding: 10px 15px;">
-																		<!--[if (gte mso 9)|(IE)]>
-																		<table width="240" border="0" cellspacing="0" cellpadding="0" style="width: 240px;">
-																		<tr><td>
-																		<![endif]-->
-																		<table class="mob_100" width="100%" border="0" cellspacing="0" cellpadding="0"
-																			style="max-width: 240px;">
-																			<tr>
-																				<td align="left"
-																					style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 22px; color: #000000; padding-bottom: 26px;">
-																					In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-																					tincidunt. Cras dapibus. Vivamus elementum
-																				</td>
-																			</tr>
-																			<tr>
-																				<td align="left">
-																					<table width="240" border="0" cellspacing="0" cellpadding="0"
-																						style="width: 240px;">
-																						<tr>
-																							<td nowrap align="center" valign="middle" bgcolor="#FFFFFF"
-																								style="background-color: #FFFFFF; border: 1px solid #222222; display: block; border-radius: 0px; mso-padding-alt: 15px 20px;">
-																								<a href="#" target="_blank"
-																									style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 20px; color: #222222; white-space: nowrap; text-decoration: none; display: block; padding: 15px 20px;">
-																									выбрать
-																								</a>
-																							</td>
-																						</tr>
-																					</table>
-																				</td>
-																			</tr>
-																		</table>
-																		<!--[if (gte mso 9)|(IE)]>
-																		</td></tr>
-																		</table>
-																		<![endif]-->
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<!-- item END-->
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+                        <tr>
+                          <td align="center" valign="top"
+                            style="padding: 56px 10px 22px; mso-padding-alt: 56px 0 22px;">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="630" border="0" cellspacing="0" cellpadding="0" style="width: 630px;">
+                            <tr><td>
+                            <![endif]-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 630px;">
+                              <tr>
+                                <td align="center">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                  <table width="600" border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
+                                  <tr><td>
+                                  <![endif]-->
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                    style="max-width: 600px;">
+                                    <tr>
+                                      <td align="center"
+                                        style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 32px; line-height: 38px; color: #FFFFFF;">
+                                        Корабль дня:
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!--[if (gte mso 9)|(IE)]>
+                                  </td></tr>
+                                  </table>
+                                  <![endif]-->
+                                </td>
+                              </tr>
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 0px 15px 28px;">
-								<!--[if (gte mso 9)|(IE)]>
-								<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-								<tr><td>
-								<![endif]-->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-									<tr>
-										<td align="center">
-											<table width="100" border="0" cellspacing="0" cellpadding="0" style="max-width: 100px;">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td></tr>
+                            </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<!--[if (gte mso 9)|(IE)]>
-								</td></tr>
-								</table>
-								<![endif]-->
-							</td>
-						</tr>
+                        <tr>
+                          <td align="center" style="padding: 0px 10px; mso-padding-alt: 0 0;">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="620" border="0" cellspacing="0" cellpadding="0" style="width: 620px;">
+                            <tr><td>
+                            <![endif]-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 620px;">
+                              <tr>
+                                <td align="center" bgcolor="#FFFFFF"
+                                  style="background-color: #FFFFFF; border-radius: 4px; overflow: hidden;">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td align="center">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td align="center" valign="middle"
+                                              style="font-size: 0px; line-height: 0px;">
+                                              <!-- item -->
+                                              <div
+                                                style="display: inline-block; vertical-align: middle; width: 100%; max-width: 305px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td align="center" style="font-size: 14px; line-height: 16px;">
+                                                      <a href="#" target="_blank"
+                                                        style="text-decoration: none; color: #000000; ">
+                                                        <img src="images/creative06.png" width="305" alt="" border="0"
+                                                          style="display: block; text-decoration: none; width: 100%; max-width: 305px; ">
+                                                      </a>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </div>
+                                              <!-- item END-->
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff;">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center">
-											<a href="#" target="_blank"
-												style="text-decoration: none; color: #000000; ">
-												<img src="https://placehold.jp/600x242.png" width="600" alt="" border="0"
-													style="display: block; text-decoration: none; width: 100%; max-width: 600px; ">
-											</a>
-										</td>
-									</tr>
-									<tr>
-										<td align="center" style="padding: 30px 15px 40px;">
-											<!--[if (gte mso 9)|(IE)]>
-											<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-											<tr><td>
-											<![endif]-->
-											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-												<tr>
-													<td align="left"
-														style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 22px; color: #000000; padding-bottom: 26px;">
-														Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-													</td>
-												</tr>
-												<tr>
-													<td align="left">
-														<table width="242" border="0" cellspacing="0" cellpadding="0" style="width: 242px;">
-															<tr>
-																<td nowrap align="center" valign="middle" bgcolor="#FFFFFF"
-																	style="background-color: #FFFFFF; border: 1px solid #222222; display: block; border-radius: 0px; mso-padding-alt: 15px 20px;">
-																	<a href="#" target="_blank"
-																		style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 20px; color: #222222; white-space: nowrap; text-decoration: none; display: block; padding: 15px 20px;">
-																		выбрать
-																	</a>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!--[if (gte mso 9)|(IE)]>
-											</td></tr>
-											</table>
-											<![endif]-->
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
+                                              <!-- item -->
+                                              <!--[if (gte mso 9)|(IE)]>
+                                              </td><td valign="middle" width="315" style="width: 315px;">
+                                              <![endif]-->
+                                              <div
+                                                style="display: inline-block; vertical-align: middle; width: 100%; max-width: 315px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td align="center"
+                                                      style="font-size: 14px; line-height: 16px; padding: 28px 10px; mso-padding-alt: 20px 0;">
+                                                      <!--[if (gte mso 9)|(IE)]>
+                                                      <table width="295" border="0" cellspacing="0" cellpadding="0" style="width: 295px;">
+                                                      <tr><td>
+                                                      <![endif]-->
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                                        style="max-width: 295px;">
+                                                        <tr>
+                                                          <td align="left" style="padding-bottom: 15px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                              <tr>
+                                                                <td align="left" valign="top" width="36"
+                                                                  style="width: 36px;">
+                                                                  <img src="images/rate01.png" width="28" alt=""
+                                                                    border="0"
+                                                                    style="display: block; text-decoration: none; width: 100%; max-width: 28px; ">
+                                                                </td>
+                                                                <td align="left" valign="top" width="36"
+                                                                  style="width: 36px;">
+                                                                  <img src="images/rate01.png" width="28" alt=""
+                                                                    border="0"
+                                                                    style="display: block; text-decoration: none; width: 100%; max-width: 28px; ">
+                                                                </td>
+                                                                <td align="left" valign="top" width="36"
+                                                                  style="width: 36px;">
+                                                                  <img src="images/rate01.png" width="28" alt=""
+                                                                    border="0"
+                                                                    style="display: block; text-decoration: none; width: 100%; max-width: 28px; ">
+                                                                </td>
+                                                                <td align="left" valign="top" width="36"
+                                                                  style="width: 36px;">
+                                                                  <img src="images/rate01.png" width="28" alt=""
+                                                                    border="0"
+                                                                    style="display: block; text-decoration: none; width: 100%; max-width: 28px; ">
+                                                                </td>
+                                                                <td align="left" valign="top" width="36"
+                                                                  style="width: 36px;">
+                                                                  <img src="images/rate02.png" width="28" alt=""
+                                                                    border="0"
+                                                                    style="display: block; text-decoration: none; width: 100%; max-width: 28px; ">
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left"
+                                                            style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #131316; padding-bottom: 5px;">
+                                                            &laquo;Цербер&raquo;
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left"
+                                                            style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #131316; padding-bottom: 16px;">
+                                                            Маневренное патрульное судно, предназначенное
+                                                            для&nbsp;охраны систем.
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" style="padding-bottom: 22px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                              <tr>
+                                                                <td align="left" valign="middle" width="60"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 23px; text-decoration: line-through; color: #D9D9D9; width: 60px;">
+                                                                  $1 600
+                                                                </td>
+                                                                <td align="left" valign="middle" width="60"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 23px; text-decoration: line-through; color: #D9D9D9; width: 60px;">
+                                                                  $1 400
+                                                                </td>
+                                                                <td align="left" valign="middle" width="60"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 23px; font-weight: bold; color: #131316; width: 60px;">
+                                                                  $800
+                                                                </td>
+                                                                <td align="left" valign="middle" width="60"
+                                                                  style="width: 60px;">
+                                                                  <table width="60" border="0" cellspacing="0"
+                                                                    cellpadding="0" style="width: 60px;">
+                                                                    <tr>
+                                                                      <td nowrap align="center" valign="middle"
+                                                                        bgcolor="#FF0000"
+                                                                        style="background-color: #FF0000; display: block; border-radius: 4px; mso-padding-alt: 2px 5px;">
+                                                                        <a href="#" target="_blank"
+                                                                          style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 20px; font-weight: bold; color: #ffffff; white-space: nowrap; text-decoration: none; display: block; padding: 2px 5px;">
+                                                                          -50%
+                                                                        </a>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left">
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="240" border="0" cellspacing="0" cellpadding="0" style="width: 240px;">
+                                                            <tr><td>
+                                                            <![endif]-->
+                                                            <table width="100%" border="0" cellspacing="0"
+                                                              cellpadding="0" style="max-width: 240px;">
+                                                              <tr>
+                                                                <td align="left"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 25px; color: #131316;">
+                                                                  Скидка SPACESHOP
+                                                                </td>
+                                                                <td align="right" width="60"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 25px; color: #131316; width: 60px;">
+                                                                  $200
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="left"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 25px; color: #131316;">
+                                                                  Промокод &laquo;КОРАБЛЬДНЯ3&raquo;
+                                                                </td>
+                                                                <td align="right" width="60"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 25px; color: #131316; width: 60px;">
+                                                                  $600
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td align="left"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 25px; color: #131316;">
+                                                                  Вы&nbsp;эĸономите
+                                                                </td>
+                                                                <td align="right" width="60"
+                                                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 25px; font-weight: bold; color: #FF0000; width: 60px;">
+                                                                  $800
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            </td></tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 0px 15px 28px;">
-								<!--[if (gte mso 9)|(IE)]>
-								<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-								<tr><td>
-								<![endif]-->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-									<tr>
-										<td align="center">
-											<table width="100" border="0" cellspacing="0" cellpadding="0" style="max-width: 100px;">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<!--[if (gte mso 9)|(IE)]>
-								</td></tr>
-								</table>
-								<![endif]-->
-							</td>
-						</tr>
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding-bottom: 30px;">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" valign="top" style="font-size: 0px; line-height: 0px;">
-														<!-- item -->
-														<div class="mob_100"
-															style="display: inline-block; vertical-align: top; width: 100%; max-width: 300px;">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td align="left" style="font-size: 14px; line-height: 16px; padding: 10px 0;">
-																		<a href="#" target="_blank"
-																			style="text-decoration: none; color: #000000; ">
-																			<img src="https://placehold.jp/3d4070/ffffff/300x242.png" width="300" alt="" border="0"
-																				style="display: block; text-decoration: none; width: 100%; max-width: 300px; ">
-																		</a>
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<!-- item END-->
+                                                      </table>
+                                                      <!--[if (gte mso 9)|(IE)]>
+                                                      </td></tr>
+                                                      </table>
+                                                      <![endif]-->
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                              </div>
+                                              <!-- item END-->
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" style="padding: 0 10px; mso-padding-alt: 0 0;">
+                                        <!--[if (gte mso 9)|(IE)]>
+                                        <table width="600" border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
+                                        <tr><td>
+                                        <![endif]-->
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                          style="max-width: 600px;">
+                                          <tr>
+                                            <td align="center" style="padding-bottom: 10px;">
+                                              <table width="280" border="0" cellspacing="0" cellpadding="0"
+                                                style="width: 280px;">
+                                                <tr>
+                                                  <td nowrap align="center" valign="middle"
+                                                    style=" border: 1px dashed #131316; display: block; border-radius: 4px; mso-padding-alt: 19px 20px;">
+                                                    <span
+                                                      style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.06em; color: #131316; white-space: nowrap; text-decoration: none; display: block; padding: 19px 20px;">
+                                                      КОРАБЛЬДНЯ3
+                                                    </span>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td align="center" style="padding-bottom: 35px;">
+                                              <a href="#" target="_blank"
+                                                style="text-decoration: none; color: #000000; ">
+                                                <img src="images/btn04.png" width="280" alt="" border="0"
+                                                  style="display: block; text-decoration: none; width: 100%; max-width: 280px; ">
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <!--[if (gte mso 9)|(IE)]>
+                                        </td></tr>
+                                        </table>
+                                        <![endif]-->
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td></tr>
+                            </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
 
-														<!-- item -->
-														<!--[if (gte mso 9)|(IE)]>
-														</td><td valign="top" width="300" style="width: 300px;">
-														<![endif]-->
-														<div class="mob_100"
-															style="display: inline-block; vertical-align: top; width: 100%; max-width: 300px;">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td align="center" style="font-size: 14px; line-height: 16px; padding: 10px 15px;">
-																		<!--[if (gte mso 9)|(IE)]>
-																		<table width="240" border="0" cellspacing="0" cellpadding="0" style="width: 240px;">
-																		<tr><td>
-																		<![endif]-->
-																		<table class="mob_100" width="100%" border="0" cellspacing="0" cellpadding="0"
-																			style="max-width: 240px;">
-																			<tr>
-																				<td align="left">
-																					<!--[if (gte mso 9)|(IE)]>
-																					<table width="215" border="0" cellspacing="0" cellpadding="0" style="width: 215px;">
-																					<tr><td>
-																					<![endif]-->
-																					<table class="mob_100" width="100%" border="0" cellspacing="0" cellpadding="0"
-																						style="max-width: 215px;">
-																						<tr>
-																							<td align="left"
-																								style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 22px; color: #000000; padding-bottom: 26px;">
-																								Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-																							</td>
-																						</tr>
-																					</table>
-																					<!--[if (gte mso 9)|(IE)]>
-																					</td></tr>
-																					</table>
-																					<![endif]-->
-																				</td>
-																			</tr>
+                        <tr>
+                          <td align="center" style="padding: 60px 10px 26px; mso-padding-alt: 60px 0 26px;">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table width="620" border="0" cellspacing="0" cellpadding="0" style="width: 620px;">
+                            <tr><td>
+                            <![endif]-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 620px;">
+                              <tr>
+                                <td align="center"
+                                  style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #ffffff; padding-bottom: 15px;">
+                                  Присоединяйтесь к&nbsp;нам в&nbsp;соц. сетях!
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding-bottom: 28px;">
+                                  <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td align="center" valign="top" width="84" style="width: 84px;">
+                                        <a href="#" target="_blank" style="text-decoration: none; color: #000000; ">
+                                          <img src="images/sc01.png" width="68" alt="" border="0"
+                                            style="display: block; text-decoration: none; width: 100%; max-width: 68px; ">
+                                        </a>
+                                      </td>
+                                      <td align="center" valign="top" width="84" style="width: 84px;">
+                                        <a href="#" target="_blank" style="text-decoration: none; color: #000000; ">
+                                          <img src="images/sc02.png" width="68" alt="" border="0"
+                                            style="display: block; text-decoration: none; width: 100%; max-width: 68px; ">
+                                        </a>
+                                      </td>
+                                      <td align="center" valign="top" width="84" style="width: 84px;">
+                                        <a href="#" target="_blank" style="text-decoration: none; color: #000000; ">
+                                          <img src="images/sc03.png" width="68" alt="" border="0"
+                                            style="display: block; text-decoration: none; width: 100%; max-width: 68px; ">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td align="left" valign="middle">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td align="left"
+                                              style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; line-height: 20px; color: #89898a; padding-bottom: 2px;">
+                                              Контакты:
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left"
+                                              style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF;">
+                                              <a href="tel:01233456789" target="_blank"
+                                                style="text-decoration: none; color: #FFFFFF; ">
+                                                0 (123) 345-67-89
+                                              </a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left"
+                                              style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF;">
+                                              <a href="mailto:contact@spaceshop.sp" target="_blank"
+                                                style="text-decoration: none; color: #FFFFFF; ">
+                                                contact@spaceshop.sp
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td align="right" valign="middle" valign="top" width="140" style="width: 140px;">
+                                        <a href="#" target="_blank" style="text-decoration: none; color: #000000; ">
+                                          <img src="images/logo02.png" width="120" alt="" border="0"
+                                            style="display: block; text-decoration: none; width: 100%; max-width: 120px; ">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td></tr>
+                            </table>
+                            <![endif]-->
+                          </td>
+                        </tr>
 
-																			<tr>
-																				<td align="left">
-																					<table width="240" border="0" cellspacing="0" cellpadding="0"
-																						style="width: 240px;">
-																						<tr>
-																							<td nowrap align="center" valign="middle" bgcolor="#FFFFFF"
-																								style="background-color: #FFFFFF; border: 1px solid #222222; display: block; border-radius: 0px; mso-padding-alt: 15px 20px;">
-																								<a href="#" target="_blank"
-																									style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 20px; color: #222222; white-space: nowrap; text-decoration: none; display: block; padding: 15px 20px;">
-																									выбрать
-																								</a>
-																							</td>
-																						</tr>
-																					</table>
-																				</td>
-																			</tr>
-																		</table>
-																		<!--[if (gte mso 9)|(IE)]>
-																		</td></tr>
-																		</table>
-																		<![endif]-->
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<!-- item END-->
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
 
-						<tr>
-							<td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 0px 15px 30px;">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center">
-											<!--[if (gte mso 9)|(IE)]>
-											<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-											<tr><td>
-											<![endif]-->
-											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-												<tr>
-													<td align="left"
-														style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 16px; line-height: 22px; font-weight: bold; color: #000000;">
-														Quisque rutrum. Aenean imperdiet. Etiam
-													</td>
-												</tr>
-											</table>
-											<!--[if (gte mso 9)|(IE)]>
-											</td></tr>
-											</table>
-											<![endif]-->
-										</td>
-									</tr>
-									<tr>
-										<td align="center" style="padding: 12px 0px 0;">
-											<!--[if (gte mso 9)|(IE)]>
-											<table width="560" border="0" cellspacing="0" cellpadding="0" style="width: 560px;">
-											<tr><td>
-											<![endif]-->
-											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 560px;">
-												<tr>
-													<td align="center">
-														<table width="100%" border="0" cellspacing="0" cellpadding="0">
-															<tr>
-																<td align="center" valign="top" style="font-size: 0px; line-height: 0px;">
-																	<!-- item -->
-																	<div
-																		style="display: inline-block; vertical-align: top; width: 100%; max-width: 186px;">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td align="center" style="font-size: 14px; line-height: 16px; padding: 10px;">
-																					<!--[if (gte mso 9)|(IE)]>
-																					<table width="166" border="0" cellspacing="0" cellpadding="0" style="width: 166px;">
-																					<tr><td>
-																					<![endif]-->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																						style="max-width: 166px;">
-																						<tr>
-																							<td align="center" bgcolor="#FAF7F1" style="background-color: #FAF7F1;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																									<tr>
-																										<td align="center" style="padding-bottom: 3px;">
-																											<img src="https://placehold.jp/3d4070/ffffff/166x80.png" width="166" alt="" border="0"
-																												style="display: block; text-decoration: none; width: 100%; max-width: 166px; ">
-																										</td>
-																									</tr>
-																									<tr>
-																										<td align="center"
-																											style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 15px; line-height: 22px; font-weight: bold; color: #000000; padding-bottom: 6px;">
-																											Lorem
-																										</td>
-																									</tr>
-																									<tr>
-																										<td align="center"
-																											style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 15px; line-height: 22px; color: #000000; padding-bottom: 23px;">
-																											Curabitur ullamcorper ultricies nisi.
-																										</td>
-																									</tr>
-																								</table>
-																							</td>
-																						</tr>
-																					</table>
-																					<!--[if (gte mso 9)|(IE)]>
-																					</td></tr>
-																					</table>
-																					<![endif]-->
-																				</td>
-																			</tr>
-																		</table>
-																	</div>
-																	<!-- item END-->
 
-																	<!-- item -->
-																	<!--[if (gte mso 9)|(IE)]>
-																	</td><td valign="top" width="186" style="width: 186px;">
-																	<![endif]-->
-																	<div
-																		style="display: inline-block; vertical-align: top; width: 100%; max-width: 186px;">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td align="center" style="font-size: 14px; line-height: 16px; padding: 10px;">
-																					<!--[if (gte mso 9)|(IE)]>
-																					<table width="166" border="0" cellspacing="0" cellpadding="0" style="width: 166px;">
-																					<tr><td>
-																					<![endif]-->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																						style="max-width: 166px;">
-																						<tr>
-																							<td align="center" bgcolor="#FAF7F1" style="background-color: #FAF7F1;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																									<tr>
-																										<td align="center" style="padding-bottom: 3px;">
-																											<img src="https://placehold.jp/3d4070/ffffff/166x80.png" width="166" alt="" border="0"
-																												style="display: block; text-decoration: none; width: 100%; max-width: 166px; ">
-																										</td>
-																									</tr>
-																									<tr>
-																										<td align="center"
-																											style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 15px; line-height: 22px; font-weight: bold; color: #000000; padding-bottom: 6px;">
-																											Lorem
-																										</td>
-																									</tr>
-																									<tr>
-																										<td align="center"
-																											style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 15px; line-height: 22px; color: #000000; padding-bottom: 23px;">
-																											Curabitur ullamcorper ultricies nisi.
-																										</td>
-																									</tr>
-																								</table>
-																							</td>
-																						</tr>
-																					</table>
-																					<!--[if (gte mso 9)|(IE)]>
-																					</td></tr>
-																					</table>
-																					<![endif]-->
-																				</td>
-																			</tr>
-																		</table>
-																	</div>
-																	<!-- item END-->
 
-																	<!-- item -->
-																	<!--[if (gte mso 9)|(IE)]>
-																	</td><td valign="top" width="186" style="width: 186px;">
-																	<![endif]-->
-																	<div
-																		style="display: inline-block; vertical-align: top; width: 100%; max-width: 186px;">
-																		<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																			<tr>
-																				<td align="center" style="font-size: 14px; line-height: 16px; padding: 10px;">
-																					<!--[if (gte mso 9)|(IE)]>
-																					<table width="166" border="0" cellspacing="0" cellpadding="0" style="width: 166px;">
-																					<tr><td>
-																					<![endif]-->
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0"
-																						style="max-width: 166px;">
-																						<tr>
-																							<td align="center" bgcolor="#FAF7F1" style="background-color: #FAF7F1;">
-																								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																									<tr>
-																										<td align="center" style="padding-bottom: 3px;">
-																											<img src="https://placehold.jp/3d4070/ffffff/166x80.png" width="166" alt="" border="0"
-																												style="display: block; text-decoration: none; width: 100%; max-width: 166px; ">
-																										</td>
-																									</tr>
-																									<tr>
-																										<td align="center"
-																											style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 15px; line-height: 22px; font-weight: bold; color: #000000; padding-bottom: 6px;">
-																											Lorem
-																										</td>
-																									</tr>
-																									<tr>
-																										<td align="center"
-																											style="font-family: Helvetica, Arial, Tahoma, sans-serif; font-size: 15px; line-height: 22px; color: #000000; padding-bottom: 23px;">
-																											Curabitur ullamcorper ultricies nisi.
-																										</td>
-																									</tr>
-																								</table>
-																							</td>
-																						</tr>
-																					</table>
-																					<!--[if (gte mso 9)|(IE)]>
-																					</td></tr>
-																					</table>
-																					<![endif]-->
-																				</td>
-																			</tr>
-																		</table>
-																	</div>
-																	<!-- item END-->
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<!--[if (gte mso 9)|(IE)]>
-											</td></tr>
-											</table>
-											<![endif]-->
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
 
-						
 
-						
-						<tr>
-							<td align="center" bgcolor="#FAF7F1" style="background-color: #FAF7F1; padding: 30px 15px 0;">
-								<!--[if (gte mso 9)|(IE)]>
-								<table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;">
-								<tr><td>
-								<![endif]-->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 540px;">
-									<tr>
-										<td align="center" style="padding-bottom: 28px;">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td align="center"
-											style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; color: #222222; text-transform: uppercase; mso-line-height-rule: exactly; padding-bottom: 28px;">
-											<a href="#" target="_blank"
-												style="text-decoration: none; color: #000000; ">
-												Quisque
-											</a>
-										</td>
-									</tr>
+                      </table>
+                      <!--[if gte mso 9]>
+                      </v:textbox>
+                      </v:rect>
+                      <![endif]-->
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-									<tr>
-										<td align="center" style="padding-bottom: 28px;">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td align="center"
-											style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; color: #222222; text-transform: uppercase; mso-line-height-rule: exactly; padding-bottom: 28px;">
-											<a href="#" target="_blank"
-												style="text-decoration: none; color: #000000; ">
-												rutrum
-											</a>
-										</td>
-									</tr>
 
-									<tr>
-										<td align="center" style="padding-bottom: 28px;">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td align="center"
-											style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; color: #222222; text-transform: uppercase; mso-line-height-rule: exactly; padding-bottom: 28px;">
-											<a href="#" target="_blank"
-												style="text-decoration: none; color: #000000; ">
-												Aenean
-											</a>
-										</td>
-									</tr>
 
-									<tr>
-										<td align="center" style="padding-bottom: 28px;">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td align="center"
-											style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; color: #222222; text-transform: uppercase; mso-line-height-rule: exactly; padding-bottom: 28px;">
-											<a href="#" target="_blank"
-												style="text-decoration: none; color: #000000; ">
-												imperdiet
-											</a>
-										</td>
-									</tr>
 
-									<tr>
-										<td align="center" style="padding-bottom: 28px;">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td align="center"
-											style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; color: #222222; text-transform: uppercase; mso-line-height-rule: exactly; padding-bottom: 28px;">
-											<a href="#" target="_blank"
-												style="text-decoration: none; color: #000000; ">
-												Etiam
-											</a>
-										</td>
-									</tr>
-									<tr>
-										<td align="center">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="center" bgcolor="#85837F" height="1"
-														style="background-color: #85837F; height: 1px;">
 
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-								<!--[if (gte mso 9)|(IE)]>
-								</td></tr>
-								</table>
-								<![endif]-->
-							</td>
-						</tr>
 
-						<tr class="">
-							<td align="center" bgcolor="#faf7f1" style="background-color: rgb(250, 247, 241);">
-								<!-- container -->
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td align="center" style="padding: 2px 2px 60px;">
-											<!-- footer -->
-											<!--[if mso]> <table width="540" border="0" cellspacing="0" cellpadding="0" style="width: 540px;"> <tr><td> <![endif]-->
-											<table width="100%" border="0" cellspacing="0" cellpadding="0"
-												style="max-width: 540px; border-spacing: 0px;">
-												<tr>
-													<td align="center">
-														<!-- social -->
-														<table border="0" cellspacing="0" cellpadding="0">
-															<tr>
-																<td align="center" style="padding: 28px 6px 22px;">
-																	<!-- vk --><a href="#" target="_blank"
-																		style="text-decoration: none; color: #000000; font-family: Arial, sans-serif; font-size: 10px; line-height: 12px;">
-																		<img src="https://placehold.jp/3d4070/ffffff/40x40.png" width="40"
-																			height="40" alt="Вконтакте" border="0"
-																			style="display: block; text-decoration: none;" id="1676363545864"
-																			title="Вконтакте"> </a>
-																	<!-- vk END -->
-																</td>
-																<td align="center" style="padding: 28px 6px 22px;">
-																	<!-- vk --><a href="#" target="_blank"
-																		style="text-decoration: none; color: #000000; font-family: Arial, sans-serif; font-size: 10px; line-height: 12px;">
-																		<img src="https://placehold.jp/40x40.png" width="40"
-																			height="40" alt="Телеграм" border="0"
-																			style="display: block; text-decoration: none;" id="1676363545865"
-																			title="Телеграм"> </a>
-																	<!-- vk END -->
-																</td>
-																<td align="center" style="padding: 28px 6px 22px;">
-																	<!-- vk --><a href="#" target="_blank"
-																		style="text-decoration: none; color: #000000; font-family: Arial, sans-serif; font-size: 10px; line-height: 12px;">
-																		<img src="https://placehold.jp/3d4070/ffffff/40x40.png" width="40"
-																			height="40" alt="Инстаграм" border="0"
-																			style="display: block; text-decoration: none;" id="1676363545866"
-																			title="Инстаграм"> </a>
-																	<!-- vk END -->
-																</td>
-																<td align="center" style="padding: 28px 6px 22px;">
-																	<!-- vk --><a href="#" target="_blank"
-																		style="text-decoration: none; color: #000000; font-family: Arial, sans-serif; font-size: 10px; line-height: 12px;">
-																		<img src="https://placehold.jp/40x40.png" width="40"
-																			height="40" alt="ВотсАпп" border="0"
-																			style="display: block; text-decoration: none;" id="1676363545867" title="ВотсАпп">
-																	</a>
-																	<!-- vk END -->
-																</td>
-															</tr>
-														</table>
-														<!-- social END -->
 
-														<!-- padding -->
-														<table width="100%" border="0" cellspacing="0" cellpadding="0">
-															<tr>
-																<td height="17" style="font-size: 0; line-height: 17px; height: 17px;"> </td>
-															</tr>
-														</table>
-														<!-- padding END -->
-														<!-- text -->
-														<table width="100%" border="0" cellspacing="0" cellpadding="0">
-															<tr>
-																<td align="center"
-																	style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #939393; mso-line-height-rule: exactly; padding-bottom: 24px;">
-																	Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante
-																	</td>
-															</tr>
-														</table>
-														<!-- text END -->
-														<!-- links -->
-														<table border="0" cellspacing="0" cellpadding="0">
-															<tr>
-																<td align="center"
-																	style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 16px; color: #939393; mso-line-height-rule: exactly; padding: 0 18px; border-right: 1px solid #939393;">
-																	<a href="{{webversion}}" target="_blank"
-																		style="color: #939393; text-decoration: underline;"><span
-																			style="text-decoration: underline;">Веб-версия</span></a>
-																</td>
-																<td align="center"
-																	style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 16px; color: #939393; mso-line-height-rule: exactly; padding: 0 18px;">
-																	<a href="{{unsubscribeUrl}}" target="_blank"
-																		style="color: #939393; text-decoration: underline;"><span
-																			style="text-decoration: underline;">Отписаться</span></a>
-																</td>
-															</tr>
-														</table>
-														<!-- links END -->
-													</td>
-												</tr>
-											</table>
-											<!--[if mso]> </td></tr> </table> <![endif]-->
-											<!-- footer END -->
-										</td>
-									</tr>
-								</table>
-								<!-- container END -->
-							</td>
-						</tr>
+
+
+
+
+
+
+
+
+
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+					</td></tr>
 					</table>
-					<!--[if mso]> </td></tr> </table> <![endif]-->
-				</td>
-			</tr>
-		</table>
-	</div>
-	<!-- body -->
+					<![endif]-->
+          <!-- main END -->
+
+
+        </td>
+      </tr>
+    </table>
+  </div>
+
 </body>
 
 </html>
